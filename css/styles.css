@@ -95,6 +95,12 @@ img {
 .logo-style {
   color: var(--accent-color);
 }
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* ================================ /COMPONENTS ================================ */
 
 /* ================================== HEADER ================================== */
@@ -102,6 +108,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -210,8 +217,6 @@ img {
 /* ================================== OUR TEAM ================================== */
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background: var(--background-color-secondary);
 }
 
@@ -242,8 +247,7 @@ img {
 /* ================================== ABOUT ================================== */
 
 .about {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 .about-list {
@@ -255,7 +259,7 @@ img {
 /* ================================== WORKS ================================== */
 
 .works {
-  padding-bottom: 120px;
+  padding-top: 60px;
 }
 
 .works-list {
@@ -304,7 +308,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 
 .catalog-list-item {
