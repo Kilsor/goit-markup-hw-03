@@ -88,7 +88,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .list-description {
@@ -195,6 +195,7 @@ img {
 .hero-title {
   max-width: 496px;
   margin: 0 auto;
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
