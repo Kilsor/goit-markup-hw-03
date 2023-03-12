@@ -242,6 +242,7 @@ img {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -251,6 +252,7 @@ img {
 }
 
 .team-list-item {
+  flex-basis: calc((100% - 72px) / 4);
   background: var(--primary-text-color-light);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -284,7 +286,12 @@ img {
 
 .works-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+}
+
+.work-list-item {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .works-title {
