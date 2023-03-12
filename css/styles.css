@@ -302,6 +302,11 @@ img {
 /* ================================== /WORKS ================================== */
 
 /* ================================== PORTFOLIO ================================== */
+
+.catalog {
+  padding-top: 96px;
+}
+
 .catalog-filter-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
